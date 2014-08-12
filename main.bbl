@@ -1,0 +1,10 @@
+\begin{thebibliography}{\hspace{\parindent}}
+
+\bibitem[AUTOR(2013)AUTOR]{siteref2013} AUTOR. \textbf{Título do site}.
+  Disponível em <http://www.endereco.com/>, Acesso em: 42 set. 2013.
+
+\bibitem[SOBRENOME; SOBRENOME2; SOBRENOME3(2013)SOBRENOME; SOBRENOME2;
+  SOBRENOME3]{artigo2013sobrenome} SOBRENOME, N.; SOBRENOME2, N.; SOBRENOME3,
+  N\@. Título do artigo. \textbf{Onde foi publicado}, [S.l.], 2013.
+
+\end{thebibliography}
