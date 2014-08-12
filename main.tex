@@ -1,0 +1,129 @@
+%%=============================================================================
+%%
+%% Exemplo de Projeto de TG seguindo a formatação MDT UFSM
+%% Vitor da Silva
+%% vitords@inf.ufsm.br
+%%
+%% A classe mdtufsm.cls não foi criada por mim, apenas modificada para 
+%% facilitar a criação de projetos de TG (projtg).
+%% O original está disponível em: http://code.google.com/p/mdtufsm-ppgi/
+%% A classe esta de acordo com o MDT 2010, porém não houveram alterações
+%% na formatação entre as versões 2010 e 2012 (atual), apenas correções no 
+%% texto e algumas definições para impressão frente e númeração de páginas
+%% para trabalhos com mais de 100 páginas.
+%% Dito isso, NÃO GARANTO que a classe esteja totalmente de acordo com
+%% qualquer versão do MDT.
+%%
+%% Opções para a classe do documento:
+%%  - projtg: Projeto de TG
+%%  - tg: Trabalho de Graduação
+%%  - espec: Monografia de Especialização
+%%  - tese: Tese de Doutorado
+%%  - diss: Dissertação de Mestrado
+%%
+%% Este documento e um exemplo de Projeto de TG, para outras funcionalidades
+%% olhar no mdtufsm.cls :)
+%%
+%% É necessário seguir esta sequência para compilar o documento:
+%%	- compilar LaTeX
+%%	- compilar BibTeX
+%%	- compilar LaTeX
+%%	- compilar LaTeX
+%%
+%% O warning "Underfull \vbox (badness 10000) detected at line XX" pode ser
+%% ignorado sem problemas.
+%%=============================================================================
+
+\documentclass[projtg]{mdtufsm}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% para funcionar corretamente o tamanho das fontes da capa
+\usepackage{fix-cm}
+% pacote para usar fonte Adobe Times e cores			
+\usepackage{times, color, xcolor}
+% pacote para importar figuras
+\usepackage{graphicx}
+% pacotes matemáticos
+\usepackage{amsmath, latexsym, amssymb}
+\usepackage{tabu}
+\usepackage[inner=30mm, outer=20mm, top=30mm, bottom=20mm]{geometry} 
+% só é necessário para o lorem ipsum
+\usepackage{lipsum}
+% hidelinks disponível no pacote hyperref a partir da versão 2011-02-05  6.82a
+\usepackage[%hidelinks%, 
+            bookmarksopen=true,linktoc=none,colorlinks=true,
+            linkcolor=black,citecolor=black,filecolor=magenta,urlcolor=blue,
+            pdftitle={Título do Trabalho},
+            pdfauthor={Autor},
+            pdfsubject={Assunto (TG, Projeto, etc.)},
+            pdfkeywords={keyword1, keyword2}
+            ]{hyperref}
+
+\input{macros/bugcaption}
+
+\title{Título do Trabalho}
+
+\author{Sobrenome}{Nome}
+\course{Ciência da Computação}
+\altcourse{curso de Ciência da Computação}
+\institute{Centro de Tecnologia}
+\degree{Bacharel em Ciência da Computação}
+\trabalhoNumero{}
+\advisor[Prof.ª]{Dr.ª}{Winck}{Ana T.}
+
+\date{42}{Trezembro}{2013}
+
+% Exemplos de keywords
+\keyword{Classificação Multirrótulo} 
+\keyword{Aprendizado de Máquina}
+\keyword{Mineração de Dados}
+
+\begin{document}
+\maketitle
+\setlength{\baselineskip}{1.5\baselineskip}
+
+\chapter{Lorem ipsum}
+Referênciia a artigos: \cite{artigo2013sobrenome}. \\
+Referência a sites: \cite{siteref2013}
+\lipsum[1]
+    
+\chapter{Objetivos}
+\lipsum[1]
+
+\section{Lorem ipsum}
+\lipsum[1]
+	
+\section{Lorem ipsum}
+\lipsum[1]
+
+\chapter{Lorem ipsum}
+\lipsum[1]
+
+\chapter{Lorem ipsum}
+\lipsum[1]
+    
+\chapter{Cronograma (cheat code pra quem quiser :D)}
+\begin{tabu} to 0.9\linewidth{|X[6]|X|X|X|X|X|}
+	\hline
+	& SET & OUT & NOV & DEZ & JAN \\
+	\hline
+	Atividade 1 & X & X & & & \\
+	\hline
+	Atividade 2 & X & X & & & \\
+	\hline
+	Atividade 3 & & X & X & X & \\
+	\hline
+	Atividade 4 & & & & X & X \\
+	\hline
+	Atividade 5 & & & & & X \\
+	\hline
+\end{tabu}
+ 
+\setlength{\baselineskip}{\baselineskip}
+
+% Referências
+\bibliographystyle{abnt}
+\bibliography{referencias}
+
+\end{document}
