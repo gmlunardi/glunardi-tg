@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  12 AUG 2014 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  13 AUG 2014 10:14
 entering extended mode
-**C:/Users/Gabriel*M*Lunardi/Desktop/glunardi-tg/main.tex
-("C:/Users/Gabriel M Lunardi/Desktop/glunardi-tg/main.tex"
+**C:/Users/Gabriel*M*Lunardi/Desktop/glunardi-tg/projeto-tg-glunardi.tex
+("C:/Users/Gabriel M Lunardi/Desktop/glunardi-tg/projeto-tg-glunardi.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -697,7 +697,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip59
 )
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\macros/bugcaption.tex")
-("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\main.aux")
+("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
 LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
@@ -788,8 +788,8 @@ LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
 
-("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\main.out")
-("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\main.out")
+("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.out")
+("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.out")
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
@@ -835,38 +835,40 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 ] [7
 
+] [8
+
 ]
-("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\main.bbl" [8
-
-])
-
-AED: lastpage setting LastPage
+("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.bbl"
 [9
 
+]) 
+AED: lastpage setting LastPage
+[10
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
- ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FE061A7B15B20FD1FAD9E532ABA2022F;349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+ ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `projeto-tg-glunardi.out' has not changed.
+(rerunfilecheck)             Checksum: C91080640FD6E10EFF2D0875409E37ED;423.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 9584 strings out of 493921
- 131798 string characters out of 3154596
- 333433 words of memory out of 3000000
- 12678 multiletter control sequences out of 15000+200000
+ 9583 strings out of 493921
+ 131992 string characters out of 3154596
+ 333408 words of memory out of 3000000
+ 12676 multiletter control sequences out of 15000+200000
  48906 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,13n,39p,1131b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,39p,1146b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/MikTeX/fonts/enc/dvips/fontname/8r.enc}<C:/MikTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/MikTeX/fonts/type1/urw/times/utmr8a.pfb><C:/MikTeX/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 61838 bytes).
+Output written on projeto-tg-glunardi.pdf (10 pages, 62930 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
