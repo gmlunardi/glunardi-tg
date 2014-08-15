@@ -1,8 +1,21 @@
 \begin{thebibliography}{\hspace{\parindent}}
 
 \bibitem[HAN; KAMBER(2006)HAN; KAMBER]{Han-kamber2nd} HAN, J.; KAMBER, M\@.
-  \textbf{Data Mining}: concepts and techniques. Second Edition.ed. 500 Sansome
-  Street, Suite 400, San Francisco, CA 94111: Morgan Kaufmann Publishers is an
-  imprint of Elsevier, 2006.
+  \textbf{Data Mining, Southeast Asia Edition}: concepts and techniques.
+  [S.l.]: Elsevier Science, 2006. (The Morgan Kaufmann Series in Data
+  Management Systems).
+
+\bibitem[LUNARDI(2014)LUNARDI]{Lunardi-2014} LUNARDI, M. G. e. L. M.~E\@.
+  Gestão Educacional na modalidade EAD: um olhar no processo tecnológico do
+  pró-conselho/ufsm. \textbf{Interfaces entre políticas públicas/gestão
+  educacional e formação docente [livro eletrônico]}, [S.l.], 2014.
+
+\bibitem[MEC(2014)MEC]{mec-site} MEC. \textbf{Sistemas do Ministério da
+  Educação - MEC}. Disponível em <http://goo.gl/39AY0x>, Acesso em: 13 ago.
+  2014.
+
+\bibitem[SICME(2011)SICME]{sicme-site} SICME. \textbf{Sistema de Informações
+  dos Conselhos Municipais de Educação}. Disponível em
+  <http://sicme.mec.gov.br/>, Acesso em: 12 ago. 2014.
 
 \end{thebibliography}
