@@ -1,6 +1,8 @@
 \begin{thebibliography}{\hspace{\parindent}}
 
-\bibitem[THURAISINGHAM(1999)THURAISINGHAM]{Thuraisingham99} THURAISINGHAM, B\@.
-  \textbf{Data Mining}. [S.l.]: CRC Press, 1999.
+\bibitem[HAN; KAMBER(2006)HAN; KAMBER]{Han-kamber2nd} HAN, J.; KAMBER, M\@.
+  \textbf{Data Mining}: concepts and techniques. Second Edition.ed. 500 Sansome
+  Street, Suite 400, San Francisco, CA 94111: Morgan Kaufmann Publishers is an
+  imprint of Elsevier, 2006.
 
 \end{thebibliography}
