@@ -121,36 +121,46 @@ Nesse sentido, com a identificação do perfil dos conselhos municipais de educa
 
 \section{Mineração de Dados}
 
-Na atualidade são gerados muitos dados, principalmente em detrimento da rápida evolução computacional, onde destaca-se a disseminação da internet. Conforme mostra \cite{enia5}, esse grande volume de dados é armazenado em repositórios de diferentes áreas, seja médica, científica, financeira, comercial, dentre muitas outras que nos rodeiam. A partir disso, informações úteis podem ser extraídas dos dados, porém torna-se inviável extraí-las e interpretá-las manualmente, utilizando só a subjetividade humana. É nesse sentido, em automatizar parte do processo, que existem técnicas computacionais adequadas, em especial as relacionadas a mineração de dados.
+Na atualidade são gerados muitos dados, principalmente em detrimento da rápida evolução computacional, onde destaca-se a disseminação da internet. Conforme mostra \cite{enia5}, esse grande volume de dados é armazenado em repositórios de diferentes áreas, seja médica, científica, financeira, comercial, dentre muitas outras que nos circundam. A partir disso, informações úteis podem ser extraídas dos dados, porém torna-se inviável extraí-las e interpretá-las manualmente, utilizando só a subjetividade humana. É nesse sentido, em automatizar parte do processo, que existem técnicas computacionais adequadas, em especial as relacionadas a mineração de dados.
 
 Tendo em mente o exposto, a mineração de dados, em consonância com \cite{hand}, é "a análise de grandes conjuntos de dados a fim de encontrar relacionamentos inesperados e de resumir os dados de uma forma que eles sejam tanto úteis enquanto compreensíveis ao dono dos dados".
 
-Já na perspectiva de \cite{cabena}, a mineração de dados é "um campo multidisciplinar que reúne técnicas de aprendizagem de máquina, reconhecimento de padrões, estatísticas, banco de dados e visualização, para conseguir extrair informações de grandes bases de dados". FALAR AQUI QUE MINERACAO NAO EH RECUPERACAO DE INFORMACAO
+Já na perspectiva de \cite{cabena}, a mineração de dados é "um campo multidisciplinar que reúne técnicas de aprendizagem de máquina, reconhecimento de padrões, estatísticas, banco de dados e visualização, para conseguir extrair informações de grandes bases de dados.". 
 
-Neste trabalho entende-se mineração de dados como uma etapa de um processo maior denominado KDD {\it Knowledge Discovery in Databases} - Descoberta de Conhecimento em Bases de Dados, pois existem etapas anteriores e posteriores a mineração muito importantes. Alguns defensores desse ponto de vista são \cite{fayyad} que reafirmam "KDD refere-se a todo o processo de descoberta de conhecimento e que mineração de dados compreende a aplicação de algoritmos específicos para a extração de padrões. 
+Neste trabalho entende-se mineração de dados como uma etapa de um processo maior denominado KDD ({\it Knowledge Discovery in Databases} - Descoberta de Conhecimento em Bases de Dados), pois existem etapas, anteriores e posteriores a mineração, muito importantes. Alguns defensores desse ponto de vista são \cite{fayyad} que reafirmam "[...] KDD refere-se a todo o processo de descoberta de conhecimento e que mineração de dados compreende a aplicação de algoritmos específicos para a extração de padrões". No entanto, na literatura, ainda não é consenso da definição de mineração de dados e KDD, porém há a consonância de que o procedimento de mineração deva ser iterativo, interativo e dividido em fases.  
+
+Vale mencionar que mineração de dados não compreende uma simples consulta em um banco de dados ou, então, uma pesquisa na \textit{web}. Essas ações pertencem a área de recuperação de informação (\textit{information retrieval}) e não devem ser confundidas com mineração de dados.
 
 \section{Tarefas da Mineração de Dados}
 
 As principais tarefas dentro da etapa de mineração de dados, conforme \cite{larose2005}, estão elencadas abaixo:
 
-\textbf{Descrição (Description)} é utilizada para descrever padrões e tendências encontrados a partir dos dados. Comumente fornece uma possível interpretação para os resultados. 
+\textbf{Descrição (Description):} é utilizada para descrever padrões e tendências encontrados a partir dos dados. Comumente fornece uma possível interpretação para os resultados. 
 
-\textbf{Classificação (Classification)} identifica a qual classe (categoria) pertence um determinado atributo. O conjunto de registros é analisado, sendo que cada um deles já possui a identificação da classe, na intenção de "aprender" como classificar um novo registro (aprendizado supervisionado).
+\textbf{Classificação (Classification):} identifica a qual classe (categoria) pertence um determinado atributo. O conjunto de registros é analisado, sendo que cada um deles já possui a identificação da classe, na intenção de "aprender" como classificar um novo registro (aprendizado supervisionado).
 
-\textbf{Estimação (Estimation)} é semelhante à classificação, no entanto é usada quando o atributo alvo é numérico ao invés de categórico. Basicamente novas observações são baseadas em um modelo de estimação que, por sua vez, advém dos valores de outras variáveis. Por exemplo, estimar a quantia a ser gasta por uma família no período de férias. 
+\textbf{Estimação (Estimation):} é semelhante à classificação, no entanto é usada quando o atributo alvo é numérico ao invés de categórico. Basicamente novas observações são baseadas em um modelo de estimação que, por sua vez, advém dos valores de outras variáveis. Por exemplo, estimar a quantia a ser gasta por uma família no período de férias. 
 
-\textbf{Predição (Predication)}, da mesma forma, é similar às anteriores exceto por visar o descobrimento do valor futuro de um determinado atributo. Um exemplo simples seria predizer a quantidade de vendas de um produto quatro meses adiante com base no histórico de vendas. 
+\textbf{Predição (Predication):}, da mesma forma, é similar às anteriores exceto por visar o descobrimento do valor futuro de um determinado atributo. Um exemplo simples seria predizer a quantidade de vendas de um produto quatro meses adiante com base no histórico de vendas. 
 
-\textbf{Agrupamento (Clustering)} objetiva aproximar registros, observações ou classes de objetos similares. Diferentemente das tarefas anteriores, o agrupamento não focaliza o valor de uma variável alvo. Em vez disso, algoritmos de agrupamento procuram segmentos definidos em subgrupos ou grupos relativamente homogêneos, onde a similaridade dos registros dentro do cluster é maximizada e a similaridade fora é minimizada. Alguns exemplos, nas mais variadas áreas, são: processamento de imagens, pesquisa da mercado, reconhecimento de padrões. 
+\textbf{Agrupamento (Clustering):} objetiva aproximar registros, observações ou classes de objetos similares. Diferentemente das tarefas anteriores, o agrupamento não focaliza o valor de uma variável alvo. Em vez disso, algoritmos de agrupamento procuram segmentos definidos em subgrupos ou grupos relativamente homogêneos, onde a similaridade dos registros dentro do cluster é maximizada e a similaridade fora é minimizada. Alguns exemplos, nas mais variadas áreas, são: processamento de imagens, pesquisa da mercado, reconhecimento de padrões. 
 
-\textbf{Associação (Association)} visa descobrir as regras para quantificar a relação entre dois ou mais atributos. As regras de associação são da forma "SE atributo X ENTÃO atributo Y". Por exemplo, de 1000 clientes em um dia de semana a noite, de uma loja, 200 compraram fraldas e, desses 200, 50 compraram cervejas. Logo, a regra de associação poderia ser "Se comprou fraldas, então comprará cervejas".
+\textbf{Associação (Association):} visa descobrir as regras para quantificar a relação entre dois ou mais atributos. As regras de associação são da forma "SE atributo X ENTÃO atributo Y". Por exemplo, de 1000 clientes em um dia de semana a noite, de uma loja, 200 compraram fraldas e, desses 200, 50 compraram cervejas. Logo, a regra de associação poderia ser "Se comprou fraldas, então comprará cervejas".
 
 
 \section{Pré-processamento dos dados}
 
+O conhecimento obtido após o término oficial de um processo de KDD está intimamente ligado a qualidade dos dados de entrada. Todavia, se os dados presentes em grandes bases de dados e \textit{data warehouses} reais são inconsistentes, incompletos e com ruídos, conforme elenca \cite{Han-kamber2nd}, então o conhecimento será de má qualidade. Nesse sentido, \cite{larose2005} diz que "para ser útil para fins da mineração de dados, os dados precisam passar por pré-processamento, na forma de limpeza e transformação de dados.".
 
+O processo de preparação dos dados para a mineração, denominado de pré-processamento por \cite{Han-kamber2nd}, compreende as principais etapas:
 
+\textbf{Limpeza dos dados:} Dados tendem a ser incompletos e inconsistentes, assim, essa etapa visa a aplicação de métodos como, por exemplo, preenchimento de campos vazios com valores padrão e agrupamento buscando descobrir melhores valores, para a eliminação de problemas. 
 
+\textbf{Integração dos dados:} Como o próprio nome sugere, integração compreende a etapa de integrar diferentes fontes de armazenamento de dados em um único repositório consistente. A partir disso, deve-se observar questões de redundância e dependência existentes entre atributos.
+
+\textbf{Transformação dos dados:} Essa etapa é merece atenção, pois alguns algoritmos trabalham apenas com valores numéricos e outros com valores categóricos. Sendo assim, é necessária a transformação entre valores categóricos/numéricos de acordo com os objetivos pretendidos. Algumas etapas podem ser citadas para esse fim: suavização de dados discrepantes \textit{(outliers)}, agrupamento, generalização, normalização e a criação de novos atributos.
+
+\textbf{Redução dos dados:} Um \textit{data set} pode ser muito grande ocasionando demora e até inviabilidade no processamento e análise de dados. Assim, essa etapa busca diminuir o volume de um \textit{data set} através da remoção de atributos que não denigram a integridade dos dados originais. Com isso, minerar em dados reduzidos seria mais rápido e, ainda, produziria o mesmo resultado. 
 
 
 
