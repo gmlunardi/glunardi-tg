@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  15 AUG 2014 14:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  16 AUG 2014 09:53
 entering extended mode
 **projeto-tg-glunardi.tex
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.tex"
@@ -698,23 +698,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\macros/bugcaption.tex")
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 81.
 
 (C:\miktex\tex\latex\psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -725,7 +725,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 82.
+(lastpage)             ! on input line 81.
 \AtBeginShipoutBox=\box33
  (C:\miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -775,7 +775,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 81.
 (C:\miktex\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -784,59 +784,59 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.out")
 ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.out")
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
 
-Underfull \vbox (badness 10000) detected at line 84
+Underfull \vbox (badness 10000) detected at line 83
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <18> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
 
-Overfull \vbox (52.74571pt too high) detected at line 84
+Overfull \vbox (52.74571pt too high) detected at line 83
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
 [1
 
 {C:/miktex/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 84.
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 83.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
  (C:\miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 
 (C:\miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9.79996> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
  [2
 
 ] [3
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 107.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 106.
 
 
 (C:\miktex\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
  [4
 
 ] [5
@@ -854,29 +854,29 @@ AED: lastpage setting LastPage
 [9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  ("C:\Users\Gabriel M Lunardi\Desktop\glunardi-tg\projeto-tg-glunardi.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `projeto-tg-glunardi.out' has not changed.
-(rerunfilecheck)             Checksum: C91080640FD6E10EFF2D0875409E37ED;423.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+(rerunfilecheck)             Checksum: 11F7AB5EF863642DD01E25562EAABC37;652.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 9622 strings out of 493921
- 132595 string characters out of 3154596
- 336486 words of memory out of 3000000
- 12707 multiletter control sequences out of 15000+200000
+ 9647 strings out of 493921
+ 132887 string characters out of 3154596
+ 336673 words of memory out of 3000000
+ 12726 multiletter control sequences out of 15000+200000
  48906 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,13n,39p,970b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/miktex/fonts/enc/dvips/fontname/8r.enc}<C:/miktex/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/miktex/fonts/type1/urw/times/utmb8a.pfb><C:/miktex/fonts
 /type1/urw/times/utmr8a.pfb><C:/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on projeto-tg-glunardi.pdf (9 pages, 74522 bytes).
+Output written on projeto-tg-glunardi.pdf (9 pages, 78863 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

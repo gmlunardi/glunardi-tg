@@ -1,18 +1,30 @@
 \begin{thebibliography}{\hspace{\parindent}}
 
-\bibitem[HAN; KAMBER(2006)HAN; KAMBER]{Han-kamber2nd} HAN, J.; KAMBER, M\@.
-  \textbf{Data Mining, Southeast Asia Edition}: concepts and techniques.
-  [S.l.]: Elsevier Science, 2006. (The Morgan Kaufmann Series in Data
-  Management Systems).
+\bibitem[CABENA et~al.(1998)CABENA; HADJINIAN; STADLER; ZANASI]{cabena} CABENA,
+  P. et~al\@. \textbf{Discovering Data Mining}: from concept to implementation.
+  [S.l.]: Prentice Hall, 1998.
 
-\bibitem[LUNARDI(2014)LUNARDI]{Lunardi-2014} LUNARDI, M. G. e. L. M.~E\@.
-  Gestão Educacional na modalidade EAD: um olhar no processo tecnológico do
-  pró-conselho/ufsm. \textbf{Interfaces entre políticas públicas/gestão
-  educacional e formação docente [livro eletrônico]}, [S.l.], 2014.
+\bibitem[FAYYAD; PIATETSKY-SHAPIRO; SMYTH(1996)FAYYAD; PIATETSKY-SHAPIRO;
+  SMYTH]{fayyad} FAYYAD, U.; PIATETSKY-SHAPIRO, G.; SMYTH, P\@. From Data
+  Mining to Knowledge Discovery in Databases. \textbf{American Association for
+  Artificial Intelligence}, [S.l.], 1996.
+
+\bibitem[HAND; MANNILA; SMITH(2001)HAND; MANNILA; SMITH]{hand} HAND, D.;
+  MANNILA, H.; SMITH, P\@. \textbf{Principles of Data Mining}. [S.l.]: MIT
+  Press, 2001.
+
+\bibitem[LUNARDI; LUNARDI(2014)LUNARDI; LUNARDI]{Lunardi-2014} LUNARDI, G.~M.;
+  LUNARDI, E.~M\@. Gestão Educacional na modalidade EAD: um olhar no processo
+  tecnológico do pró-conselho/ufsm. \textbf{Interfaces entre políticas
+  públicas/gestão educacional e formação docente [livro eletrônico]},
+  [S.l.], 2014.
 
 \bibitem[MEC(2014)MEC]{mec-site} MEC. \textbf{Sistemas do Ministério da
   Educação - MEC}. Disponível em <http://goo.gl/39AY0x>, Acesso em: 13 ago.
   2014.
+
+\bibitem[REZENDE(2005)REZENDE]{enia5} REZENDE, S.~O\@. Mineração de Dados.
+  \textbf{V Encontro Nacional de Inteligência Artificial}, [S.l.], 2005.
 
 \bibitem[SICME(2011)SICME]{sicme-site} SICME. \textbf{Sistema de Informações
   dos Conselhos Municipais de Educação}. Disponível em
