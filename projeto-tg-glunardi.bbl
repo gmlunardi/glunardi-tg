@@ -34,8 +34,12 @@
 \bibitem[REZENDE(2005)REZENDE]{enia5} REZENDE, S.~O\@. Mineração de Dados.
   \textbf{V Encontro Nacional de Inteligência Artificial}, [S.l.], 2005.
 
-\bibitem[SICME(2011)SICME]{sicme-site} SICME. \textbf{Sistema de Informações
+\bibitem[SICME(2014)SICME]{sicme-site} SICME. \textbf{Sistema de Informações
   dos Conselhos Municipais de Educação}. Disponível em
   <http://sicme.mec.gov.br/>, Acesso em: 12 ago. 2014.
+
+\bibitem[TAN; STEINBACH; KUMAR(2006)TAN; STEINBACH; KUMAR]{pang-ning} TAN,
+  P.-N.; STEINBACH, M.; KUMAR, V\@. \textbf{Introduction to Data Mining}.
+  [S.l.]: Pearson Education India, 2006.
 
 \end{thebibliography}
