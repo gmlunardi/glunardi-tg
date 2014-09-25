@@ -34,8 +34,9 @@
 %% ignorado sem problemas.
 %%=============================================================================
 
-\documentclass[projtg]{mdtufsm}
+\documentclass[tg]{mdtufsm}
 
+\usepackage{verbatim}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 % para funcionar corretamente o tamanho das fontes da capa
@@ -72,7 +73,7 @@
 \trabalhoNumero{}
 \advisor[Prof.ª]{Dr.ª}{Winck}{Ana T.}
 
-\date{15}{Agosto}{2014}
+\date{16}{Outubro}{2014}
 
 % Exemplos de keywords
 \keyword{Aprendizado de Máquina}
@@ -82,25 +83,33 @@
 \maketitle
 \setlength{\baselineskip}{1.5\baselineskip}
 
+\tableofcontents
+\newpage
+
 \chapter{Introdução}
 
 O Programa do Pró-Conselho é proposto pelo Ministério da Educação (MEC), consiste em um Curso de Extensão a Distância de Formação Continuada de Conselheiros Municipais de Educação. Segundo \cite{Lunardi-2014}, o curso configura-se como iniciativa da Secretaria de Educação Básica (SEB) que visa fortalecer os Sistemas de Ensino e as instâncias políticas e sociais tal como é o Conselho Municipal de Educação (CME). Tem carga horária de 160h, ofertado via internet, em ambiente virtual de aprendizagem (plataforma \textit{Moodle}) ministrado pela Universidade Federal de Santa Maria em parceria com a Coordenação do Programa Nacional de Capacitação de Conselheiros Municipais de Educação – Pró-Conselho, SEB/MEC. O público alvo é formado por Conselheiros Municipais de Educação e técnicos das secretarias de educação dos municípios onde ainda não existam Conselhos Municipais de Educação. 
 
 O Pró-Conselho/UFSM é responsável pela oferta do curso no estado do Rio Grande do Sul - RS, lotado no Centro de Educação da UFSM, estando em sua 2ª edição. A equipe é composta por: coordenação geral; coordenação adjunta local; coordenação adjunta pedagógica; um professor supervisor; tutores; apoio de Informática e apoio administrativo. Vale ressaltar que o projeto está diretamente ligado aos grupos de pesquisa dessa área, pois serve como objeto de estudo. 
 
-Nessa perspectiva, como uma das atividades do curso, a equipe gestora formulou um questionário composto por perguntas abertas e fechadas buscando delinear o perfil dos CME no RS. Tal questionário foi utilizado como requisito inicial no desenvolvimento de um banco de dados relacional o qual receberá as respostas. A partir daí, um sistema {\it web}, a ser desenvolvido, funcionará como instrumento de coleta e, após análise, visualização dos dados. É importante destacar que existe um sistema, desde 2003, com proposição parecida, porém de âmbito nacional, chamado Sistema de Informações dos Conselhos Municipais de Educação \cite{sicme-site}. Todavia, conforme consta no site \cite{mec-site} o sistema encontra-se em manutenção. 
+Nessa perspectiva, como uma das atividades do curso, a equipe gestora formulou um questionário composto por perguntas abertas e fechadas buscando coletar dados a fim de delinear o perfil dos CME no RS. A tabulação dos dados é realizada manualmente e, tendo isso em vista, o presente trabalho vislumbra a possibilidade de utilizar um método computacional para a análise, em especial, técnicas de mineração de dados. É importante destacar que existe uma abordagem computacional, desde 2003, com proposição parecida, incluindo coleta de dados, porém de âmbito nacional, chamado Sistema de Informações dos Conselhos Municipais de Educação \cite{sicme-site}. Todavia, conforme consta no site \cite{mec-site} o sistema encontra-se em manutenção. 
 
-Sendo assim, como tema central, empregar-se-á técnicas de mineração de dados buscando padrões que auxiliem a identificar o perfil dos CME no RS através dos dados coletados via sistema {\it on-line}. Ao identificar o perfil, entende-se ser possível explorar a realidade dos CME e, por conseguinte, aplicar políticas e ações que melhorem tais órgãos fortalecendo o sistema de educação básica.
+A escolha do contexto dos dados justifica-se pela necessidade de conhecer o perfil dos conselhos municipais de educação no RS. \cite{bordignon2009} elenca os conselhos como órgãos normatizadores, interpretadores, credencialistas, recursais e ouvidores necessitando, para isso, de pessoas instrumentalizadas. Tais pessoas, muitas vezes técnicos das secretarias e professores da educação básica, devem possuir uma formação com conhecimento específico para atuar na área. É a partir daí que o levantamento do perfil dos conselhos se torna importante, pois pode auxiliar na criação de novas políticas de formação de professores, programas e cursos de formação continuada, tal como é o Pró-Conselho/UFSM visando atender a deficiência de formação existente em muitos municípios brasileiros.  
+
+Para tanto, através da mineração de dados, será possível gerar conhecimento sobre a realidade dos CME no RS corroborando para o refinamento do Pró-Conselho/UFSM e, consequentemente na instrumentalização das pessoas (cursistas) que, por sua vez, estarão melhor preparados para implementar os conselhos e, principalmente, contribuir para a qualidade do ensino básico brasileiro.
+
+Sendo assim, como tema central, empregar-se-á técnicas de mineração de dados buscando padrões que auxiliem a identificar o perfil dos CME no RS através dos dados coletados através do questionário. Ao identificar o perfil, entende-se ser possível explorar a realidade dos CME e, por conseguinte, aplicar políticas e ações que melhorem tais órgãos fortalecendo o sistema de educação básica.
 
 % escolha desse contexto justifica-se, principalmente, pela necessidade em conhecer a realidade dos CME de um estado e, por conseguinte, aplicar melhores políticas   do SICME e suas incongruências devido a sua grande abrangência; necessidade de um recurso computacional, por parte da equipe, para coletar e analisar os dados de forma automatizada e a oportunidade de consolidar conhecimentos em mineração de dados em um estudo de caso real.
 
 %Como consequência deste trabalho pretende-se contribuir com uma metodologia de análise e visualização de dados automatizada para o Pró-Conselho/UFSM. Com isso, busca-se fornecer conhecimento para o embasamento de novas leis que reforcem os CME, revertendo assim, o bem da educação para a sociedade. 
 
-\chapter{Objetivos}
-\section{Objetivo Geral}
+\section{Objetivos}
+\subsection{Objetivo Geral}
 
-Empregar técnicas de mineração de dados, em um banco de dados relacional do curso Pró-Conselho/UFSM, buscando padrões que auxiliem na identificação do perfil e realidade dos CME no RS.
-	
+Empregar técnicas de mineração de dados, em dados coletados através do questionário do curso Pró-Conselho/UFSM, buscando padrões que auxiliem na identificação do perfil e realidade dos CME no RS.
+
+\begin{comment}
 \section{Objetivos Específicos}
 \begin{itemize}
   \item Construir um banco de dados relacional e populá-lo;
@@ -110,15 +119,13 @@ Empregar técnicas de mineração de dados, em um banco de dados relacional do c
   \item Identificar e aplicar uma técnica de mineração de dados que melhor se enquadre sobre os dados resultantes do pré-processamento;
   \item Encontrar padrões que auxiliem na identificação do perfil dos conselhos municipais de educação no RS.
 \end{itemize}
+\end{comment}
 
-\chapter{Justificativa}
-As atividades cotidianas de qualquer pessoa implicam na geração de dados, os quais são armazenados por muitas instituições sumarizando grandes quantidades. Entretanto, muitas dessas instituições não atingem a transformação dos dados em conhecimento permitindo melhorar a qualidade de vida das pessoas. 
+\section{Organização do Texto}
 
-Nesse sentido, com a identificação do perfil dos conselhos municipais de educação no RS, através da mineração de dados, será possível gerar conhecimento sobre a realidade dos CME. A partir disso, alcançar-se-á o refinamento do Pró-Conselho/UFSM e, consequentemente da instrumentalização dos cursistas que, por sua vez, estarão melhor preparados para implementar os conselhos e, principalmente, contribuir para a qualidade do ensino básico brasileiro.   
 
-%iniciativa para outros estados brasileiros de forma a descentralizar o SICME ....
 
-\chapter{Revisão de Literatura}
+\chapter{Fundamentação Teórica}
 
 \section{Mineração de Dados}
 
@@ -160,39 +167,6 @@ O processo de preparação dos dados para a mineração, denominado de pré-proc
 \textbf{Redução dos dados:} Um \textit{data set} pode ser muito grande ocasionando demora e até inviabilidade no processamento e análise de dados. Assim, essa etapa busca diminuir o volume de um \textit{data set} através da remoção de atributos que não denigram a integridade dos dados originais. Com isso, minerar em dados reduzidos seria mais rápido e, ainda, produziria o mesmo resultado. 
 
 
-
-
-\chapter{Metodologia}
-O início do trabalho se dará através do estudo e revisão de literatura de alguns assuntos: técnicas de mineração e pré-processamento de dados. Concomitante a isso, o desenvolvimento de um sistema {\it web} responsável por receber os dados fornecidos pelos cursistas. Tais dados serão armazenados em um banco de dados relacional, a ser construído. Na sequência, com o banco de dados populado, conhecer o \textit{data set} obtido na intenção de realizar o pré-processamento da melhor forma possível. Por fim, aplicar a técnica de mineração de dados escolhida e averiguar o conhecimento obtido. 
-    
-\chapter{Cronograma}
-\begin{tabu} to 0.9\linewidth{|X[6]|X|X|X|X|X|}
-	\hline
-	& AGO & SET & OUT & NOV & DEZ \\
-	\hline
-	Definição do projeto & X & & & & \\
-	\hline
-	Construção do banco de dados relacional & X & & & & \\
-	\hline
-	Desenvolvimento do sistema web de coleta & X & & & & \\
-	\hline
-	Pesquisa sobre as técnicas de mineração de dados & X & X & & & \\
-	\hline
-	Coleta das respostas através do questionário on-line & & X & & & \\
-	\hline
-	Identificação e aplicação da técnica de mineração escolhida & & X & X & & \\
-	\hline
-	Revisão de Literatura & X & X & X & & \\
-	\hline
-	Apresentação do andamento & & & X & & \\
-	\hline
-	Elaboração da parte escrita & & X & X & X & \\
-	\hline
-	Reuniões de acompanhamento & X & X & X & X & X \\
-	\hline
-	Apresentação para a banca & & & & & X \\
-	\hline
-\end{tabu}
  
 \setlength{\baselineskip}{\baselineskip}
 

@@ -1,0 +1,10 @@
+\select@language {brazilian}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{5}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~a}o do Texto}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Minera\IeC {\c c}\IeC {\~a}o de Dados}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tarefas da Minera\IeC {\c c}\IeC {\~a}o de Dados}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pr\IeC {\'e}-processamento dos dados}{8}{section.2.3}
+\contentsline {chapter}{Refer{\^e}ncias}{9}{chapter*.2}
