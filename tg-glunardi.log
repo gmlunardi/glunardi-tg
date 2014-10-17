@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  24 SEP 2014 21:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  17 OCT 2014 01:59
 entering extended mode
-**projeto-tg-glunardi.tex
+**tg-glunardi.tex
 
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.tex"
+\tg-glunardi.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -37,26 +37,31 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (C:\miktex\tex\generic\babel\babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+) (C:\miktex\tex\latex\babel\babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
+(C:\miktex\tex\latex\babel\switch.def
+File: switch.def 2014/09/25 3.9l Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
 (C:\miktex\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\miktex\tex\generic\babel\english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
- (C:\miktex\tex\generic\babel\babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(C:\miktex\tex\latex\babel-english\english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(C:\miktex\tex\latex\babel\babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+ (C:\miktex\tex\generic\config\language.def)
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-) (C:\miktex\tex\generic\babel\portuges.ldf
+) (C:\miktex\tex\latex\babel-portuges\portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazilian = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -94,7 +99,7 @@ Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
 (C:\miktex\tex\latex\graphics\keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (C:\miktex\tex\latex\xcolor\xcolor.sty
@@ -118,7 +123,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
 (C:\miktex\tex\latex\base\fix-cm.sty
-Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+Package: fix-cm 2014/08/30 v1.1s fixes to LaTeX
  (C:\miktex\tex\latex\base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
@@ -134,10 +139,296 @@ File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 \titlepagewinvoffset=\skip51
 \ii@chapnumindent=\skip52
 )
+(C:\miktex\tex\latex\algorithm2e\algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count94
+
+(C:\miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\miktex\tex\latex\tools\xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(C:\miktex\tex\latex\ltxmisc\relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip53
+\skiplinenumber=\skip54
+\skiprule=\skip55
+\skiphlne=\skip56
+\skiptext=\skip57
+\skiplength=\skip58
+\algomargin=\skip59
+\skipalgocfslide=\skip60
+\algowidth=\dimen104
+\inoutsize=\dimen105
+\inoutindent=\dimen106
+\interspacetitleruled=\dimen107
+\interspacealgoruled=\dimen108
+\interspacetitleboxruled=\dimen109
+\algocf@inoutbox=\box26
+\algocf@inputbox=\box27
+\AlCapSkip=\skip61
+\AlCapHSkip=\skip62
+\algoskipindent=\skip63
+\algocf@nlbox=\box28
+\algocf@hangingbox=\box29
+\algocf@untilbox=\box30
+\algocf@skipuntil=\skip64
+\algocf@capbox=\box31
+\algoheightruledefault=\skip65
+\algoheightrule=\skip66
+\algotitleheightruledefault=\skip67
+\algotitleheightrule=\skip68
+\c@algocfline=\count95
+\c@algocfproc=\count96
+\c@algocf=\count97
+\algocf@algoframe=\box32
+\algocf@algobox=\box33
+) (C:\miktex\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count98
+\c@ALC@line=\count99
+\c@ALC@rem=\count100
+\c@ALC@depth=\count101
+\ALC@tlm=\skip69
+\algorithmicindent=\skip70
+)
+(C:\miktex\tex\latex\glossaries\base\glossaries.sty
+Package: glossaries 2014/09/01 v4.11 (NLCT)
+
+(C:\miktex\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2014/05/25 v2.7 package option processing (HA)
+
+(C:\miktex\tex\generic\xkeyval\xkeyval.tex
+(C:\miktex\tex\generic\xkeyval\xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+)
+\XKV@depth=\count102
+File: xkeyval.tex 2014/05/25 v2.7 key=value parser (HA)
+))
+(C:\miktex\tex\latex\glossaries\base\mfirstuc.sty
+Package: mfirstuc 2014/07/30 v1.09 (NLCT)
+
+(C:\miktex\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+ (C:\miktex\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count103
+)
+\etb@tempcnta=\count104
+)
+\@glsmfirst=\toks17
+\@glsmrest=\toks18
+) (C:\miktex\tex\latex\textcase\textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(C:\miktex\tex\latex\xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(C:\miktex\tex\latex\datatool\datatool-base.sty
+Package: datatool-base 2014/06/10 v2.22 (NLCT)
+
+(C:\miktex\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(C:\miktex\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\miktex\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen110
+))
+(C:\miktex\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+(C:\miktex\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip10
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks20
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks21
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks22
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(C:\miktex\tex\latex\substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count117
+)
+(C:\miktex\tex\latex\datatool\datatool-fp.sty
+Package: datatool-fp 2013/08/29 v2.17 (NLCT)
+ (C:\miktex\tex\latex\fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\miktex\tex\latex\fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count118
+) (C:\miktex\tex\latex\fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count119
+\FP@xia=\count120
+\FP@xib=\count121
+\FP@xfa=\count122
+\FP@xfb=\count123
+\FP@rega=\count124
+\FP@regb=\count125
+\FP@regs=\count126
+\FP@times=\count127
+)
+(C:\miktex\tex\latex\fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+) (C:\miktex\tex\latex\fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\miktex\tex\latex\fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+) (C:\miktex\tex\latex\fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\miktex\tex\latex\fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+) (C:\miktex\tex\latex\fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count128
+)
+(C:\miktex\tex\latex\fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (C:\miktex\tex\latex\fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\miktex\tex\latex\fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks24
+\@dtl@tmpcount=\count129
+\dtl@tmplength=\skip74
+\dtl@sortresult=\count130
+\@dtl@numgrpsepcount=\count131
+\@dtl@datatype=\count132
+\dtl@codeA=\count133
+\dtl@codeB=\count134
+\@dtl@foreach@level=\count135
+)
+(C:\miktex\tex\latex\glossaries\base\glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
+)
+(C:\miktex\tex\latex\beamer\base\translator\translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(C:\miktex\tex\latex\beamer\base\translator\translator-language-mappings.tex))
+\gls@level=\count136
+\@gls@tmpb=\toks25
+\gls@tmplen=\skip75
+\glskeylisttok=\toks26
+\glslabeltok=\toks27
+\glsshorttok=\toks28
+\glslongtok=\toks29
+
+(C:\miktex\tex\latex\glossaries\styles\glossary-hypernav.sty
+Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
+)
+(C:\miktex\tex\latex\glossaries\styles\glossary-list.sty
+Package: glossary-list 2013/11/14 v4.0 (NLCT)
+\glslistdottedwidth=\skip76
+)
+(C:\miktex\tex\latex\glossaries\styles\glossary-long.sty
+Package: glossary-long 2013/11/14 v4.0 (NLCT)
+
+(C:\miktex\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count137
+\LTcapwidth=\dimen119
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count138
+\LT@rows=\count139
+\c@LT@tables=\count140
+\c@LT@chunks=\count141
+\LT@p@ftn=\toks30
+)
+\glsdescwidth=\skip81
+\glspagelistwidth=\skip82
+)
+(C:\miktex\tex\latex\glossaries\styles\glossary-super.sty
+Package: glossary-super 2013/11/14 v4.0 (NLCT)
+
+(C:\miktex\tex\latex\supertabular\supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count142
+\ST@wd=\dimen120
+\ST@rightskip=\skip83
+\ST@leftskip=\skip84
+\ST@parfillskip=\skip85
+\ST@pageleft=\dimen121
+\ST@headht=\dimen122
+\ST@tailht=\dimen123
+\ST@pagesofar=\dimen124
+\ST@pboxht=\dimen125
+\ST@lineht=\dimen126
+\ST@stretchht=\dimen127
+\ST@prevht=\dimen128
+\ST@toadd=\dimen129
+\ST@dimen=\dimen130
+\ST@pbox=\box40
+))
+(C:\miktex\tex\latex\glossaries\styles\glossary-tree.sty
+Package: glossary-tree 2014/08/27 v4.10 (NLCT)
+\glstreeindent=\skip86
+))
 (C:\miktex\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks15
-\verbatim@line=\toks16
+\every@verbatim=\toks31
+\verbatim@line=\toks32
 \verbatim@in@stream=\read1
 ) (C:\miktex\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -146,9 +437,9 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )) (C:\miktex\tex\latex\base\inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
 
 (C:\miktex\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -438,7 +729,7 @@ File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (C:\miktex\tex\latex\graphics\graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\miktex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -451,66 +742,8 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-)
-(C:\miktex\tex\latex\amsmath\amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip53
-
-For additional information on amsmath, use the `?' option.
-(C:\miktex\tex\latex\amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(C:\miktex\tex\latex\amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
-\ex@=\dimen106
-))
-(C:\miktex\tex\latex\amsmath\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen107
-)
-(C:\miktex\tex\latex\amsmath\amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
-\dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
-\tag@help=\toks20
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
-\andhelp@=\toks21
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
-\@envbody=\toks22
-\multlinegap=\skip54
-\multlinetaggap=\skip55
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
 )
 (C:\miktex\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -531,40 +764,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 (C:\miktex\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen115
-\extrarowheight=\dimen116
-\NC@list=\toks24
-\extratabsurround=\skip56
-\backup@length=\skip57
+\col@sep=\dimen133
+\extrarowheight=\dimen134
+\NC@list=\toks35
+\extratabsurround=\skip87
+\backup@length=\skip88
 ) (C:\miktex\tex\latex\ltxmisc\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box28
-\sift@deathcycles=\count106
-\@vwid@loff=\dimen117
-\@vwid@roff=\dimen118
+\@vwid@box=\box41
+\sift@deathcycles=\count143
+\@vwid@loff=\dimen135
+\@vwid@roff=\dimen136
 )
-\c@taburow=\count107
-\tabu@nbcols=\count108
-\tabu@cnt=\count109
-\tabu@Xcol=\count110
-\tabu@alloc=\count111
-\tabu@nested=\count112
-\tabu@target=\dimen119
-\tabu@spreadtarget=\dimen120
-\tabu@naturalX=\dimen121
-\tabucolX=\dimen122
-\tabu@Xsum=\dimen123
-\extrarowdepth=\dimen124
-\abovetabulinesep=\dimen125
-\belowtabulinesep=\dimen126
-\tabustrutrule=\dimen127
-\tabu@thebody=\toks25
-\tabu@footnotes=\toks26
-\tabu@box=\box29
-\tabu@arstrutbox=\box30
-\tabu@hleads=\box31
-\tabu@vleads=\box32
-\tabu@cellskip=\skip58
+\c@taburow=\count144
+\tabu@nbcols=\count145
+\tabu@cnt=\count146
+\tabu@Xcol=\count147
+\tabu@alloc=\count148
+\tabu@nested=\count149
+\tabu@target=\dimen137
+\tabu@spreadtarget=\dimen138
+\tabu@naturalX=\dimen139
+\tabucolX=\dimen140
+\tabu@Xsum=\dimen141
+\extrarowdepth=\dimen142
+\abovetabulinesep=\dimen143
+\belowtabulinesep=\dimen144
+\tabustrutrule=\dimen145
+\tabu@thebody=\toks36
+\tabu@footnotes=\toks37
+\tabu@box=\box42
+\tabu@arstrutbox=\box43
+\tabu@hleads=\box44
+\tabu@vleads=\box45
+\tabu@cellskip=\skip89
 ) (C:\miktex\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -575,23 +808,23 @@ Package ifvtex Info: VTeX not detected.
 (C:\miktex\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count113
-\Gm@cntv=\count114
-\c@Gm@tempcnt=\count115
-\Gm@bindingoffset=\dimen128
-\Gm@wd@mp=\dimen129
-\Gm@odd@mp=\dimen130
-\Gm@even@mp=\dimen131
-\Gm@layoutwidth=\dimen132
-\Gm@layoutheight=\dimen133
-\Gm@layouthoffset=\dimen134
-\Gm@layoutvoffset=\dimen135
-\Gm@dimlist=\toks27
+\Gm@cnth=\count150
+\Gm@cntv=\count151
+\c@Gm@tempcnt=\count152
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks38
 
 (C:\miktex\tex\latex\geometry\geometry.cfg))
 (C:\miktex\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count116
+\c@lips@count=\count153
 )
 (C:\miktex\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -634,7 +867,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -645,16 +877,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (C:\miktex\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen136
-\Hy@linkcounter=\count117
-\Hy@pagecounter=\count118
+\@linkdim=\dimen154
+\Hy@linkcounter=\count154
+\Hy@pagecounter=\count155
 
 (C:\miktex\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count119
+\Hy@SavedSpaceFactor=\count156
 
 (C:\miktex\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -668,16 +900,16 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count120
+\c@Hy@tempcnt=\count157
  (C:\miktex\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen137
-\Fld@menulength=\count121
-\Field@Width=\dimen138
-\Fld@charsize=\dimen139
+\XeTeXLinkMargin=\dimen155
+\Fld@menulength=\count158
+\Field@Width=\dimen156
+\Fld@charsize=\dimen157
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -687,46 +919,46 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count122
-\c@Item=\count123
-\c@Hfootnote=\count124
+\Hy@abspage=\count159
+\c@Item=\count160
+\c@Hfootnote=\count161
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (C:\miktex\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count125
-\c@bookmark@seq@number=\count126
+\Fld@listcount=\count162
+\c@bookmark@seq@number=\count163
 
 (C:\miktex\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip90
 )
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
 \macros/bugcaption.tex")
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 82.
+\tg-glunardi.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 84.
  (C:\miktex\tex\latex\psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -736,22 +968,24 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 82.
-\AtBeginShipoutBox=\box33
+(lastpage)             ! on input line 84.
+\AtBeginShipoutBox=\box46
 
 (C:\miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen140
-\scratchbox=\box34
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen141
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count164
+\scratchdimen=\dimen158
+\scratchbox=\box47
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen159
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks40
+) (C:\miktex\tex\latex\glossaries\dict\glossaries-dictionary-English.dict
+Dictionary: glossaries-dictionary, Language: English 
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -787,63 +1021,127 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 84.
 (C:\miktex\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (C:\miktex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.out")
+\tg-glunardi.out")
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.out")
+\tg-glunardi.out")
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 
-Underfull \vbox (badness 10000) detected at line 84
+Underfull \vbox (badness 10000) detected at line 86
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <18> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 
-Overfull \vbox (52.74571pt too high) detected at line 84
+Overfull \vbox (52.74571pt too high) detected at line 86
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 86.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 86.
 [1
 
 {C:/miktex/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 84.
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 86.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
  (C:\miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (C:\miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9.79996> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
  [2
 
 ]
-("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.toc"
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 91.
+ (C:\miktex\tex\latex\psnfss\t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 91.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+ [3
 
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 112.
+ [4
+
+]
+("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
+\tg-glunardi.lof")
+\tf@lof=\write4
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 113.
+ [5
+
+]
+("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
+\tg-glunardi.lot")
+\tf@lot=\write5
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 114.
+ [6
+
+]
+("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
+\tg-glunardi.loa")
+\tf@loa=\write6
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 116.
+ [7
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 134.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 134.
+ [8
+
+]
+("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
+\tg-glunardi.toc"
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []  
  []
@@ -854,56 +1152,308 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
  []  
  []
 
 )
-\tf@toc=\write4
- [3
+\tf@toc=\write7
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 135.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 135.
+ [9
 
-] [4
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 138.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 147.
+ [10
 
-] [5] [6
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 165.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 165.
+ [11]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 165.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 169.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 179.
 
-] [7]
-Overfull \hbox (5.0698pt too wide) in paragraph at lines 159--160
-[]\T1/ptm/m/n/12 O pro-cesso de pre-pa-ra-ção dos da-dos para a mi-ne-ra-ção, d
-e-no-mi-nado de pré-processamento
+Overfull \hbox (22.20792pt too wide) in paragraph at lines 181--182
+\T1/ptm/m/n/12 (pre-pa-ra-ção de da-dos), mi-ne-ra-ção de da-dos (busca por pa-
+drões com al-go-rit-mos) e pós-processamento
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 182.
+[12
+
+] <images/KDD-macro.png, id=163, 486.618pt x 168.63pt>
+File: images/KDD-macro.png Graphic file (type png)
+
+<use images/KDD-macro.png>
+Package pdftex.def Info: images/KDD-macro.png used on input line 185.
+(pdftex.def)             Requested size: 389.29492pt x 134.90417pt.
+ <images/HanKDD.png, id=170, 334.851pt x 460.119pt>
+File: images/HanKDD.png Graphic file (type png)
+
+<use images/HanKDD.png>
+Package pdftex.def Info: images/HanKDD.png used on input line 194.
+(pdftex.def)             Requested size: 267.88115pt x 368.0957pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 202.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 202.
+ [13 <C:/Users/Gabriel M Lunardi/Dropbox/Documents/SIST DE INFO_UFSM/TG/glunard
+i-tg/images/KDD-macro.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 209.
+ [14 <C:/Users/Gabriel M Lunardi/Dropbox/Documents/SIST DE INFO_UFSM/TG/glunard
+i-tg/images/HanKDD.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 214.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 225.
+
+[15]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 237.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 237.
+ [16]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 247.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 247.
+ [17]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 251.
+
+ (C:\miktex\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 251.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 260.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 260.
+ [18]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 260.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 268.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 273.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 273.
+ [19]
+<images/arff.png, id=291, 295.70474pt x 275.8305pt>
+File: images/arff.png Graphic file (type png)
+ <use images/arff.png>
+Package pdftex.def Info: images/arff.png used on input line 280.
+(pdftex.def)             Requested size: 295.70401pt x 275.82982pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 286.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 286.
+
+[20 <C:/Users/Gabriel M Lunardi/Dropbox/Documents/SIST DE INFO_UFSM/TG/glunardi
+-tg/images/arff.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 287.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 309.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 309.
+ [21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 310.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 351.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 351.
+ (C:\miktex\tex\latex\psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 356.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 368.
+
+Missing character: There is no ç in font cmr12!
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 370.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 370.
+[22]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+ [23]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 377.
+
+Underfull \hbox (badness 1983) in paragraph at lines 430--430
+[]\T1/ptm/m/n/12 descrição da lei de cri-a-ção do
  []
 
 
-("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.bbl" [8]) 
-AED: lastpage setting LastPage
-[9
+Underfull \hbox (badness 4341) in paragraph at lines 430--430
+[]\T1/ptm/m/n/12 se pos-sui sub-sí-dios fi-nan-cei-ros
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 430--430
+[]\T1/ptm/m/n/12 principais ati-vi-da-des de-sen-vol-vi-
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+[24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+ [25]
+("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
+\tg-glunardi.bbl"
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [26]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 5133) in paragraph at lines 3--6
+[]\T1/ptm/m/n/12 9.394/96, L. \T1/ptm/b/n/12 Lei de Di-re-tri-zes e Ba-ses da E
+du-ca-ção Na-ci-o-nal\T1/ptm/m/n/12 . Dis-po-ní-vel em
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 20--25
+[]\T1/ptm/m/n/12 ALCÂNTARA, A. R. D. \T1/ptm/b/n/12 ES-TUDO DE FER-RA-MEN-TAS B
+A-SE-A-DAS NO WEKA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+[]\T1/ptm/m/n/12 AMO, S. de. \T1/ptm/b/n/12 Téc-ni-cas de Mi-ne-ra-ção de Da-do
+s\T1/ptm/m/n/12 . Dis-po-ní-vel em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+[]\T1/ptm/m/n/12 ARFF. \T1/ptm/b/n/12 Attribute-Relation File For-mat (ARFF). \
+T1/ptm/m/n/12 Dis-po-ní-vel em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+[]\T1/ptm/m/n/12 BRASIL. \T1/ptm/b/n/12 Art. 211 da Cons-ti-tui-ção Fe-de-ral d
+e 1988\T1/ptm/m/n/12 . Dis-po-ní-vel em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+\T1/ptm/m/n/12 <http://www.jusbrasil.com.br/topicos/10649371/artigo-211-da-cons
+tituicao-federal-de-1988>,
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 53.
+[27
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 111.
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+[]\T1/ptm/m/n/12 PERFIL. \T1/ptm/b/n/12 Per-fil dos Con-se-lhos Mu-ni-ci-pais d
+e Edu-ca-ção\T1/ptm/m/n/12 . Dis-po-ní-vel em
+ []
+
+) 
+AED: lastpage setting LastPage
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 441.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 441.
+[29]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 441.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
 
 ("C:\Users\Gabriel M Lunardi\Dropbox\Documents\SIST DE INFO_UFSM\TG\glunardi-tg
-\projeto-tg-glunardi.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-Package rerunfilecheck Info: File `projeto-tg-glunardi.out' has not changed.
-(rerunfilecheck)             Checksum: 940EB0E4CFFBD7F12AAB6FC371673458;587.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+\tg-glunardi.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package rerunfilecheck Info: File `tg-glunardi.out' has not changed.
+(rerunfilecheck)             Checksum: F12D13D365F84854F9A9D4A111C6275F;1366.
  ) 
 Here is how much of TeX's memory you used:
- 9650 strings out of 493921
- 134035 string characters out of 3154596
- 334432 words of memory out of 3000000
- 12725 multiletter control sequences out of 15000+200000
- 48906 words of font info for 79 fonts, out of 3000000 for 9000
+ 15463 strings out of 493921
+ 217905 string characters out of 3154596
+ 535914 words of memory out of 3000000
+ 18258 multiletter control sequences out of 15000+200000
+ 69007 words of font info for 99 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,6n,39p,970b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/miktex/fonts/enc/dvips/fontname/8r.enc}<C:/miktex/fonts/type1/urw/times/u
-tmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb><C:/miktex/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on projeto-tg-glunardi.pdf (9 pages, 79015 bytes).
+ 46i,24n,39p,2231b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/miktex/fonts/enc/dvips/fontname/8r.enc}<C:/miktex/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/mikt
+ex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/miktex/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/miktex
+/fonts/type1/urw/courier/ucrr8a.pfb><C:/miktex/fonts/type1/urw/helvetic/uhvro8a
+.pfb><C:/miktex/fonts/type1/urw/times/utmb8a.pfb><C:/miktex/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tg-glunardi.pdf (29 pages, 335967 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

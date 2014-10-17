@@ -1,0 +1,149 @@
+\begin{thebibliography}{\hspace{\parindent}}
+
+\bibitem[9.394/96(1996)9.394/96]{ldb} 9.394/96, L\@. \textbf{Lei de Diretrizes
+  e Bases da Educação Nacional}. Disponível em
+  <http://portal.mec.gov.br/arquivos/pdf/ldb.pdf>, Acesso em: 01 out. 2014.
+
+\bibitem[AGRAWAL; IMIELINSKI; SWAMI(1993)AGRAWAL; IMIELINSKI;
+  SWAMI]{AgrawalIS93} AGRAWAL, R.; IMIELINSKI, T.; SWAMI, A.~N\@. Mining
+  Association Rules between Sets of Items in Large Databases. In: {ACM}
+  {SIGMOD} INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, WASHINGTON, D.C.,
+  MAY 26-28, 1993., 1993. \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 1993.
+  p.207--216.
+
+\bibitem[AGRAWAL; SRIKANT(1994)AGRAWAL; SRIKANT]{AgrawalS94} AGRAWAL, R.;
+  SRIKANT, R\@. Fast Algorithms for Mining Association Rules in Large
+  Databases. In: VLDB'94, PROCEEDINGS OF 20TH INTERNATIONAL CONFERENCE ON VERY
+  LARGE DATA BASES, SEPTEMBER 12-15, 1994, SANTIAGO DE CHILE, CHILE.
+  \textbf{Anais{\ldots}} [S.l.:~s.n.], 1994. p.487--499.
+
+\bibitem[ALCÂNTARA(2012)ALCÂNTARA]{alcantara} ALCÂNTARA, A. R.~D\@.
+  \textbf{ESTUDO DE FERRAMENTAS BASEADAS NO WEKA PARA MINERAÇÃO DE DADOS
+  DISTRIBUÍDA EM AMBIENTE DE GRID}. Disponível em
+  <http://www.bcc.ufla.br/wp-content/uploads/2013/09/ESTUDO-DE-FERRAMENTAS-BASEADAS-NO-WEKA-PARA-MINERA%C3%87%C3%83O-DE-DADOS-DISTRIBU%C3%ADDA-EM-AMBIENTE-DE-GRID.pdf>,
+  Acesso em: 30 set. 2014.
+
+\bibitem[AMO(2003)AMO]{amo2003} AMO, S.~de. \textbf{Técnicas de Mineração de
+  Dados}. Disponível em <http://www.deamo.prof.ufu.br/arquivos/JAI-cap5.pdf>,
+  Acesso em: 15 set. 2014.
+
+\bibitem[ARFF(2002)ARFF]{arff} ARFF. \textbf{Attribute-Relation File Format
+  (ARFF).} Disponível em <http://www.cs.waikato.ac.nz/~ml/weka/arff.html>,
+  Acesso em: 01 out. 2014.
+
+\bibitem[BOENTE; GOLDSCHMIDT; ESTRELA.(2005.)BOENTE; GOLDSCHMIDT;
+  ESTRELA.]{Boente-Goldschmidt} BOENTE, A. N.~P.; GOLDSCHMIDT, R.~R.; ESTRELA.,
+  V.~V\@. Uma Metodologia para o apoio a realiação do processo de descoberta
+  de conhecimento em bases de dados. \textbf{Rio de Janeiro - RJ}, [S.l.],
+  2005.
+
+\bibitem[BORDIGNON(2009)BORDIGNON]{bordignon2009} BORDIGNON, G\@.
+  \textbf{Gestão da Educação no Município}: sistema, conselho e plano.
+  [S.l.]: Editora e livraria Instituto Paulo Freire., 2009.
+
+\bibitem[BRASIL(1988)BRASIL]{const1988} BRASIL. \textbf{Art. 211 da
+  Constituição Federal de 1988}. Disponível em
+  <http://www.jusbrasil.com.br/topicos/10649371/artigo-211-da-constituicao-federal-de-1988>,
+  Acesso em: 02 set. 2014.
+
+\bibitem[BRAUNER(2003)BRAUNER]{brauner} BRAUNER, D.~F\@. \textbf{O Processo de
+  Descoberta de Conhecimento em Banco de Dados}: um estudo de caso sobre os
+  dados da ufpel. Disponível em <http://goo.gl/GLuiWq>, Acesso em: 05 set.
+  2014.
+
+\bibitem[CABENA et~al.(1998)CABENA; HADJINIAN; STADLER; ZANASI]{cabena} CABENA,
+  P. et~al\@. \textbf{Discovering Data Mining}: from concept to implementation.
+  [S.l.]: Prentice Hall, 1998.
+
+\bibitem[CAMILO; SILVA(2009)CAMILO; SILVA]{cassio-joao} CAMILO, C.~O.; SILVA,
+  J.~C\@. Mineração de Dados: conceitos, tarefas, métodos e ferramentas.
+  \textbf{Instituto de Informática - Universidade Federal de Goiás}, [S.l.],
+  2009.
+
+\bibitem[DANTAS et~al.(2008)DANTAS; JúNIOR; LIMA; AZEVEDO]{dantas} DANTAS, E.
+  R.~G. et~al\@. O Uso da Descoberta de Conhecimento em Base de Dados para
+  Apoiar a Tomada de Decisões. \textbf{SEGeT – Simpósio de Excelência em
+  Gestão e Tecnologia}, [S.l.], 2008.
+
+\bibitem[FACELI et~al.(2011)FACELI; LORENA; GAMA; CARVALHO]{faceli} FACELI, K.
+  et~al\@. \textbf{Inteligência Artificial}: uma abordagem de aprendizado de
+  máquina. [S.l.]: LTC - Livros Técnicos e Científicos Editora Ltda., 2011.
+
+\bibitem[FAYYAD; PIATETSKY-SHAPIRO; SMYTH(1996)FAYYAD; PIATETSKY-SHAPIRO;
+  SMYTH]{fayyad} FAYYAD, U.; PIATETSKY-SHAPIRO, G.; SMYTH, P\@. From Data
+  Mining to Knowledge Discovery in Databases. \textbf{American Association for
+  Artificial Intelligence}, [S.l.], 1996.
+
+\bibitem[FISHER; ELLIS; BRUCE(2003)FISHER; ELLIS; BRUCE]{fischer} FISHER, M.;
+  ELLIS, J.; BRUCE, J\@. \textbf{JDBC API tutorial and reference.} [S.l.]:
+  Prentice Hall, 2003.
+
+\bibitem[GONCALVES(2005)GONCALVES]{gon} GONCALVES, E.~C\@. \textbf{Regras de
+  Associação e suas Medidas de Interesse Objetivas e Subjetivas}. Disponível
+  em <fgsdshthsd>, Acesso em: 14 out. 2014.
+
+\bibitem[HALL et~al.(2009)HALL; FRANK; HOLMES; PFAHRINGER; REUTEMANN;
+  WITTEN]{weka} HALL, M. et~al\@. \textbf{The WEKA Data Mining Software}: an
+  update; sigkdd explorations, volume 11, issue 1. Disponível em
+  <http://www.cs.waikato.ac.nz/ml/weka/>, Acesso em: 01 out. 2014.
+
+\bibitem[HAN; KAMBER(2006)HAN; KAMBER]{Han-kamber2nd} HAN, J.; KAMBER, M\@.
+  \textbf{Data Mining, Southeast Asia Edition}: concepts and techniques.
+  [S.l.]: Elsevier Science, 2006. (The Morgan Kaufmann Series in Data
+  Management Systems).
+
+\bibitem[HAND; MANNILA; SMITH(2001)HAND; MANNILA; SMITH]{hand} HAND, D.;
+  MANNILA, H.; SMITH, P\@. \textbf{Principles of Data Mining}. [S.l.]: MIT
+  Press, 2001.
+
+\bibitem[LAROSE(2005)LAROSE]{larose2005} LAROSE, D\@. \textbf{Discovering
+  Knowledge in Data}: an introduction to data mining. [S.l.]: Wiley, 2005.
+
+\bibitem[LIBRAGA(2013)LIBRAGA]{libraga} LIBRAGA, C\@. \textbf{MINERAÇÃO DE
+  DADOS PÚBLICOS DA POLÍCIA RODOVIÁRIA FEDERAL PARA IDENTIFICAÇÃO DE
+  PADRÕES DE ACIDENTES DE TRÂNSITO}. 2013.
+
+\bibitem[LUNARDI; LUNARDI(2014)LUNARDI; LUNARDI]{Lunardi-2014} LUNARDI, G.~M.;
+  LUNARDI, E.~M\@. Gestão Educacional na modalidade EAD: um olhar no processo
+  tecnológico do pró-conselho/ufsm. \textbf{Interfaces entre políticas
+  públicas/gestão educacional e formação docente [livro eletrônico]},
+  [S.l.], 2014.
+
+\bibitem[MATOS(2005)MATOS]{cartilhaCruz} MATOS, F. M.~B\@. \textbf{CONSELHO
+  MUNICIPAL DE EDUCAÇÃO}: criaÇÃo e funcionamento. Disponível em
+  <http://goo.gl/lktBXo>, Acesso em: 01 out. 2014.
+
+\bibitem[MEC(2014)MEC]{mec-site} MEC. \textbf{Sistemas do Ministério da
+  Educação - MEC}. Disponível em <http://goo.gl/39AY0x>, Acesso em: 13 ago.
+  2014.
+
+\bibitem[PERFIL(2006)PERFIL]{caderno-perfil} PERFIL. \textbf{Perfil dos
+  Conselhos Municipais de Educação}. Disponível em <http://goo.gl/Q7mDcB>,
+  Acesso em: 04 out. 2014.
+
+\bibitem[REZENDE(2002)REZENDE]{enia5} REZENDE, S.~O\@. Mineração de Dados.
+  \textbf{V Encontro Nacional de Inteligência Artificial}, [S.l.], 2002.
+
+\bibitem[REZENDE et~al.(2003)REZENDE; PUGLIESI; MELANDA;
+  PAULA]{rezende2003mineraccao} REZENDE, S.~O. et~al\@. Minera{\c{c}}{\~a}o de
+  dados. \textbf{Sistemas inteligentes: fundamentos e aplica{\c{c}}{\~o}es},
+  [S.l.], v.1, p.307--335, 2003.
+
+\bibitem[SICME(2014)SICME]{sicme-site} SICME. \textbf{Sistema de Informações
+  dos Conselhos Municipais de Educação}. Disponível em
+  <http://sicme.mec.gov.br/>, Acesso em: 12 ago. 2014.
+
+\bibitem[TAN; STEINBACH; KUMAR(2006)TAN; STEINBACH; KUMAR]{pang-ning} TAN,
+  P.-N.; STEINBACH, M.; KUMAR, V\@. \textbf{Introduction to Data Mining}.
+  [S.l.]: Pearson Education India, 2006.
+
+\bibitem[VASCONCELOS; CARVALHO(2004)VASCONCELOS; CARVALHO]{vasconcelos}
+  VASCONCELOS, L. M.~R.~de; CARVALHO, C.~L.~de. \textbf{Aplicação de Regras
+  de Associação para Mineração de Dados na Web}. Disponível em <>, Acesso
+  em: 04 out. 2014.
+
+\bibitem[WITTEN; FRANK; HALL(2011)WITTEN; FRANK; HALL]{witten-hall} WITTEN,
+  I.~H.; FRANK, E.; HALL, M.~A\@. \textbf{Data Mining}: practical machine
+  learning tools and techniques. [S.l.]: MA: Morgan Kaufmann,, 2011.
+
+\end{thebibliography}

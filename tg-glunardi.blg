@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tg-glunardi.aux
+The style file: abnt.bst
+Database file #1: referencias.bib
+A bad cross reference---entry "AgrawalIS93"
+refers to entry "DBLP:conf/sigmod/93", which doesn't exist
+A bad cross reference---entry "AgrawalS94"
+refers to entry "DBLP:conf/vldb/94", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/vldb/94"
+Warning--I didn't find a database entry for "DBLP:conf/sigmod/93"
+(There were 2 error messages)
